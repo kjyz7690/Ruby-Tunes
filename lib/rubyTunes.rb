@@ -1,5 +1,8 @@
-require "rubyTunes/version"
+require "../lib/rubyTunes/version"
+require '../lib/rubyTunes/application'
+#require '../lib/rubyTunes/song'
 
-module RubyTunes
-  # Your code goes here...
-end
+puts 'Enter path to iTunes XML File'
+path = gets.chomp
+
+app = Application.new(path)

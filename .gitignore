@@ -14,3 +14,4 @@
 mkmf.log
 '*.swp' 
 '.DS_Store' 
+'vendor/ruby' 
