@@ -6,4 +6,7 @@ class Application
     filePath = @path + '/' + 'iTunes Music Library.xml'
     @config = XmlSimple.xml_in(filePath, {'KeyAttr' => 'Track ID'} )
   end
+  private def createSongHash()
+    File.open('iTunesLib.rb')
+  end
 end
